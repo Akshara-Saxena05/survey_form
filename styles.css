@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(rgb(176, 216, 230,0.6),rgb(255,255,255)),url("https://www.supersurvey.com/images/survey-question-bias.webp");
+  font-size: 20;
+}
+h1,p{
+  text-align: center;
+  font-family: Cursive;
+  color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #49759c;
+  opacity: 0.85;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding: 20px;
+}
+form{
+  width: 70%;
+  font-family: Arial;
+}
+textarea{
+  height: 100px;
+  width: 500px;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.gap{
+  margin-bottom: 20px;
+}
+input[type='number'], input[type='email'], input[type='text'],select{
+  display: block;
+  width: 100%;
+  height: 30px;
+}

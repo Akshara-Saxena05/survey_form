@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <body>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="container">
+    <form id="survey-form">
+      <label for="name" id="name-label" class="upper-margin">Enter your name:</label>
+      <input id="name" type="text" placeholder="Enter your name" required><br>
+      <label for="email" id="email-label">Enter your email:</label>
+      <input id="email" type="email" placeholder="Enter your email" required><br>
+      <label for="age" id="number-label">Enter your age:</label>
+      <input id="number" type="number" min="14" max="99" placeholder="Enter your age"><br>
+       <label>Which option best describes best your current role?</label><br>
+       <select name="option" id="dropdown">
+         <option value="option">Select your role</option>
+         <option value="student">Student</option>
+         <option value="job">Full time job</option>
+         <option value="learner">Full time learner</option>
+         <option value="others">Others</option>
+       </select><br>
+       <div class='gap'>
+       <label>Would you recommend freecodecamp to your friends?</label><br>
+       <input type="radio" id="definitely" name="recommend">
+       <label>Definitely</label><br>
+        <input type="radio" id="maybe" name="recommend">
+        <label>Maybe</label><br>
+        <input type="radio" id="not sure" name="recommend">
+        <label>Not Sure</label><br>
+        </div>
+         <div class="gap">
+        <label>What would you like to see improved? (Check all that apply)</label><br>
+        <input type="checkbox" value="frontend">
+        <label>Front-end Project</label><br>
+        <input type="checkbox" value="backend">
+        <label>Back-end Prject</label><br>
+        <input type="checkbox" value="data visualisation">
+        <label>Data Visualization</label><br>
+        <input type="checkbox" value="challenge">
+       
+        <label>Challenge</label><br>
+        </div>
+
+        <label>Any suggestions/comments?</label><br>
+        <div class="gap">
+        <textarea>Enter your comments here...</textarea>
+        </div>
+        <div class="gap">
+        <input type="submit" id="submit" class="submit">
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
